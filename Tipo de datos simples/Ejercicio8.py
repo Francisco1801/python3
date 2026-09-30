@@ -1,0 +1,5 @@
+num1 = int(input("Dime un numero entero: "))
+num2 = int(input("Dime otro numero entero: "))
+cociente = int(num1/num2)
+resto = int(num1%num2)
+print(f"La division {num1} entre {num2} da un cociente de {cociente} y da un resto de {resto}")
