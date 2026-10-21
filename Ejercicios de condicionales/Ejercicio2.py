@@ -1,5 +1,9 @@
-nombre = input("Introduce tu nombre completo: ")
+contraseña = "contraseña"
 
-print(nombre.lower())
-print(nombre.upper())
-print(nombre.title())
+introducida = input("Introduce la contraseña: ")
+
+if introducida.lower() == contraseña.lower():
+    print("La contraseña es correcta")
+else:
+    print("La contraseña es incorrecta")
+
